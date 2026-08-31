@@ -1,0 +1,15 @@
+{
+  "name": "deploy-button-example-failing-deploy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A disposable Deploy Button fixture whose deployment job intentionally fails.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "npm run build && node scripts/check.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
